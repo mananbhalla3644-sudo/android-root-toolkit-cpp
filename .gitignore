@@ -1,0 +1,19 @@
+# Build output. `build.bat` (MSYS2 g++) produces these.
+# The two prebuilt EXEs at the repo root ARE committed on purpose so the
+# toolkit is usable without a compiler.
+build/
+dist/
+*.o
+*.obj
+*.exe.manifest
+
+# Local env
+.env
+.env.local
+!.env.example
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
